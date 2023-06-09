@@ -1,0 +1,34 @@
+{
+  "$id": "http://example.com/myURI.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "additionalProperties": false,
+  "description": "Sample schema to help you get started.",
+  "properties": {
+    "order_number": {
+      "description": "The type(v) type is used.",
+      "type": "number"
+    },
+    "order_date": {
+      "description": "The type(v) type is used.",
+      "type": "string"
+    },
+    "item_name": {
+      "description": "The type(v) type is used.",
+      "type": "string"
+    },
+    "quantity": {
+      "description": "The type(v) type is used.",
+      "type": "number"
+    },
+    "product_price": {
+      "description": "The type(v) type is used.",
+      "type": "number"
+    },
+    "total_products": {
+      "description": "The type(v) type is used.",
+      "type": "number"
+    }
+  },
+  "title": "SampleRecord",
+  "type": "object"
+}
